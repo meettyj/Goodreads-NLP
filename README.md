@@ -10,7 +10,8 @@
 
 
 ## Reference 
-  - Existing repo: https://github.com/MengtingWan/goodreads/blob/master/distributions.ipynb
+- Existing repo: https://github.com/MengtingWan/goodreads/blob/master/distributions.ipynb
 
-
+## Results
+- book-to-similar-books.csv: https://drive.google.com/file/d/1NVeo2H3CQOGJtExgVXc1Cx_BGXiHROxy/view?usp=sharing
 
