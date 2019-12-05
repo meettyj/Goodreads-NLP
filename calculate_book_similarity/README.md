@@ -1,6 +1,6 @@
 To complete the POC, used a sample of around 2,000 books from the goodreads_books.json dataset
 
-**Text Extraction + Cleaning **
+**Text Extraction + Cleaning**
 
 Extracted the book_id, title, description, and popular shelves with more than 50 uses.
 The book_id will be needed to integrate with other pieces of the recommendation system
@@ -15,6 +15,7 @@ Next the text was cleaned/normalized using these methods:
 - stemming
 
 **Similarity Calculation**
+
 Used the word2vec google news model to compute similarity between two book texts.
 
 In current code, two books are randomly chosen from the dataframe - the text object is printed
