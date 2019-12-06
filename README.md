@@ -9,11 +9,11 @@
 - Collab Doc: https://docs.google.com/document/d/1bE4ABE4BHGGzgI5t2tli-LmkyQr0XRNYwH2fx5lthSU/edit?ts=5db793f7
 
 ## Clean Data
-- description: https://drive.google.com/open?id=1s4OiidA5zzP8072jYdXa-ij-N3mzMcmJ
+- description(~1.7G): https://drive.google.com/open?id=1s4OiidA5zzP8072jYdXa-ij-N3mzMcmJ
 
-- title: https://drive.google.com/open?id=1to-Sg0VqrnfNir9-7zw3z8IjO6-QQVLr
+- title(~100M): https://drive.google.com/open?id=1to-Sg0VqrnfNir9-7zw3z8IjO6-QQVLr
 
-- similar books: https://drive.google.com/open?id=1PNC8S9yEY9VwJIz_Jgp5obavopWFJRPG
+- similar books(~200M) https://drive.google.com/open?id=1PNC8S9yEY9VwJIz_Jgp5obavopWFJRPG
 
 ## Reference 
 - Existing repo: https://github.com/MengtingWan/goodreads/blob/master/distributions.ipynb
