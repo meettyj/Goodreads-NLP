@@ -13,7 +13,7 @@
 
 - title(~100M): https://drive.google.com/open?id=1to-Sg0VqrnfNir9-7zw3z8IjO6-QQVLr
 
-- similar books(~200M) https://drive.google.com/open?id=1PNC8S9yEY9VwJIz_Jgp5obavopWFJRPG
+- similar books(~200M): https://drive.google.com/open?id=1PNC8S9yEY9VwJIz_Jgp5obavopWFJRPG
 
 ## Reference 
 - Existing repo: https://github.com/MengtingWan/goodreads/blob/master/distributions.ipynb
