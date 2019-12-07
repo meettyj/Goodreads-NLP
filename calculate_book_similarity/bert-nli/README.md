@@ -15,8 +15,8 @@ book-related text extracted...
 Original book: Unmasked: Volume One (Unmasked, #1) I was born int ...
 
 - Top 5 most similar books:
---3D Printing: Rise of the Third Industrial Revoluti ...  (Score: 0.2274)
---Teutonic Knights The Teutonic Knights were powerfu ...  (Score: -0.0225)
---Personal Demon (Women of the Otherworld #8) In her ...  (Score: -0.0318)
---The Hobbit This beautifully presented collector's  ...  (Score: -0.0492)
---The Duke's Husband Jay Wharton and Devon Brooks me ...  (Score: -0.1133)
+-- 3D Printing: Rise of the Third Industrial Revoluti ...  (Score: 0.2274)
+-- Teutonic Knights The Teutonic Knights were powerfu ...  (Score: -0.0225)
+-- Personal Demon (Women of the Otherworld #8) In her ...  (Score: -0.0318)
+-- The Hobbit This beautifully presented collector's  ...  (Score: -0.0492)
+-- The Duke's Husband Jay Wharton and Devon Brooks me ...  (Score: -0.1133)
