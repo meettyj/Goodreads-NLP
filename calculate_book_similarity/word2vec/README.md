@@ -1,7 +1,7 @@
 To complete the POC, used a sample of around 2,000 books from the goodreads_books.json dataset
 
 **Text Extraction + Cleaning**
-
+filename: extract_clean_calculate_similarity.py
 Extracted the book_id, title, description, and popular shelves with more than 50 uses.
 The book_id will be needed to integrate with other pieces of the recommendation system
 and the text fields will be used in aggregate to rank similarity based on sentence embeddings.
@@ -15,14 +15,10 @@ Next the text was cleaned/normalized using these methods:
 - stemming
 
 **Similarity Calculation**
-
 Used the word2vec google news model to compute similarity between two book texts.
 
 In current code, two books are randomly chosen from the dataframe - the text object is printed
 out before calculating the distance
-
-The model file for word2vec took too long to update to github - here's the link: https://github.com/mmihaltz/word2vec-GoogleNews-vectors 
-It should be placed in a folder called models in this directory.
 
 Note: word2vec seems quite slow as it's doing a vector similarity computation across the corpus.
 Did some research on fastText which seems to be faster (no surprise there!)
@@ -47,3 +43,5 @@ love mean patienc love mean stori year discharg marin dont ask dont tell codi cu
 earth move one minut your work make horoscop local paper next your team sexi secret agent call charli tri help solv case celebr crime investig agenc amber make horoscop local paper wish excit life get phone call offer call heartthrob actor enni mckarthi old uni boyfriend beg favour brother joel found dead suspici circumst desper keep stori newspap solv mysteri brother death fast possibl enni call specialist shape ccia celebr crime investig agenc man job top agent charli huxton enni stalk journalist paparazzi doesnt trust stranger handl case keep quiet might discov plead amber want shadow charli throughout investig much amber surpris charli eventu agre leav wonder what charli amber delv joel death soon hand full question potenti suspect victim irat exgirlfriend discov theyr battl someth far danger could ever expectedand grow attract mayb amber life get excit
 Similarity score: 0.32
 ```
+
+
