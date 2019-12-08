@@ -107,5 +107,5 @@ venv.bak/
 data/
 .idea
 results/
-InferSent/encoder/
-InferSent/fastText/
+inferSent/encoder/
+inferSent/fastText/
