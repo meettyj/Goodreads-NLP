@@ -1,5 +1,10 @@
 # Goodreads-NLP
 
+- **Final Report:** https://docs.google.com/document/d/1RzZ2KUxB-hk8Ijq0nxu_F9x2q0s0PYGrqvZ8gNsytF0/edit?ts=5dedc8f2
+
+- **Final Presentation:** https://docs.google.com/presentation/d/1mZO6Xx4IrueeBz9D020gLU2vL8Vdl5n-cKB_wpDS0Mc/edit?ts=5dedc906#slide=id.p
+
+
 ## Introduction
 
 - Dataset: https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home?authuser=0
@@ -15,9 +20,9 @@
 
 - Ground truth similar books(~200M): https://drive.google.com/open?id=1PNC8S9yEY9VwJIz_Jgp5obavopWFJRPG
 
+- book-to-similar-books.csv: https://drive.google.com/file/d/1NVeo2H3CQOGJtExgVXc1Cx_BGXiHROxy/view?usp=sharing
+
 ## Reference 
 - Existing repo: https://github.com/MengtingWan/goodreads/blob/master/distributions.ipynb
 
-## Results
-- book-to-similar-books.csv: https://drive.google.com/file/d/1NVeo2H3CQOGJtExgVXc1Cx_BGXiHROxy/view?usp=sharing
 
