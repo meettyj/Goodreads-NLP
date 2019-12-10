@@ -14,19 +14,19 @@ book_id_titles = {}
 book_id_map = {}
 
 # load similar book csv as a global - only read once at service startup time
-with open(os.path.join(this_dir, "data/book_id_map_sample.csv"), mode='r') as infile:
+with open(os.path.join(this_dir, "data/book_id_map.csv"), mode='r') as infile:
     reader = csv.reader(infile)
     next(reader)
     book_id_map = {rows[0]: rows[1] for rows in reader}
 
-with open(os.path.join(this_dir, "data/similar_books_sample.csv"), mode='r') as infile:
+with open(os.path.join(this_dir, "data/similar_books.csv"), mode='r') as infile:
     reader = csv.reader(infile)
     # skip header line
     next(reader)
     similar_books_map = {rows[0]: utils.extract_list_from_string(rows[1]) for rows in reader}
 
 # add supplemental similar book list
-with open(os.path.join(this_dir, "data/book_to_similar_books_sample.csv"), mode='r') as infile:
+with open(os.path.join(this_dir, "data/book_to_similar_books.csv"), mode='r') as infile:
     reader = csv.reader(infile)
     next(reader)
     for rows in reader:
@@ -48,13 +48,13 @@ with open(os.path.join(this_dir, "data/book_to_similar_books_sample.csv"), mode=
                     utils.extract_list_from_string(rows[1]), book_id_map)
 
 
-with open(os.path.join(this_dir, "data/description_sample.csv"), mode='r') as infile:
+with open(os.path.join(this_dir, "data/description.csv"), mode='r') as infile:
     reader = csv.reader(infile)
     for rows in reader:
         if len(rows[1]) > 20:
             book_id_descriptions[rows[0]] = rows[1]
 
-with open(os.path.join(this_dir, "data/title_sample.csv"), mode='r') as infile:
+with open(os.path.join(this_dir, "data/title.csv"), mode='r') as infile:
     reader = csv.reader(infile)
     next(reader)
     book_id_titles = {rows[0]: rows[1] for rows in reader}
