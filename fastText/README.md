@@ -1,3 +1,5 @@
+The experiment runs in the ipython file.
+
 ## Requirements
 
 For the word-similarity evaluation script you will need:
