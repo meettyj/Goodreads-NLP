@@ -7,14 +7,16 @@ Some of our team members had recently started reading more fiction novels and at
 To summarize, our project aligns more with product development as opposed to research. Our aim was to develop a functional book recommendation system that could provide useful insights derived from both user reactions to books and (con)textual similarity of book descriptions to prioritize ranking. 
 
 ## Pipeline
-
+<p align="center">
+  <img src="https://github.com/meettyj/Goodreads-NLP/raw/master/images/pipeline.png" />
+</p>
 
 ## Goodreads Datasets
 https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home?authuser=0
 
 
 ## For more information 
-- Our presentation: http://tianyijun.com/files/GoodReads_Recommendation.pdf
-- Our report: http://tianyijun.com/files/report_GoodReads.pdf
+- Slides: http://tianyijun.com/files/GoodReads_Recommendation.pdf
+- Report: http://tianyijun.com/files/report_GoodReads.pdf
 
 
