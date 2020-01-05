@@ -1,28 +1,20 @@
 # Goodreads-NLP
+## Overview
+Our project focused on developing a recommendation system using cloud ML methodologies. Recommendation systems have gained popularity in our current time of personalization across all consumer verticals. The tricky piece in their development is measuring performance - they are usually tested using online A/B testing. There are so many factors that go into why one recommendation may be better fitted for the user versus another. This allows room for creativity but it is also somewhat of an art in some aspects, hence the reliance on experimentation.
 
-- **Final Report:** https://docs.google.com/document/d/1RzZ2KUxB-hk8Ijq0nxu_F9x2q0s0PYGrqvZ8gNsytF0/edit?ts=5dedc8f2
+Some of our team members had recently started reading more fiction novels and at times had trouble finding a new book to read based on previously enjoyed books. During the first phase of our project, we started with GoodReads data exploration. The depth of structured interaction and unstructured text description and review data in GoodReads gave us a lot of options for analysis - so many options that we found it difficult to narrow down our strategy to an achievable scope based on all the possibilities. In the end, we did a book to book description based recommendation engine focusing on implementing the text embedding and text classification technologies.
 
-- **Final Presentation:** https://docs.google.com/presentation/d/1mZO6Xx4IrueeBz9D020gLU2vL8Vdl5n-cKB_wpDS0Mc/edit?ts=5dedc906#slide=id.p
+To summarize, our project aligns more with product development as opposed to research. Our aim was to develop a functional book recommendation system that could provide useful insights derived from both user reactions to books and (con)textual similarity of book descriptions to prioritize ranking. 
+
+## Pipeline
 
 
-## Introduction
+## Goodreads Datasets
+https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home?authuser=0
 
-- Dataset: https://sites.google.com/eng.ucsd.edu/ucsdbookgraph/home?authuser=0
 
-- Proposal: https://docs.google.com/document/d/1d429CK93GTkAW2p1casfQkW4C-4leXiCfzRM2SUxMvg/edit?ts=5db77f9c
-
-- Collab Doc: https://docs.google.com/document/d/1bE4ABE4BHGGzgI5t2tli-LmkyQr0XRNYwH2fx5lthSU/edit?ts=5db793f7
-
-## Clean Data
-- description(~1.7G): https://drive.google.com/open?id=1s4OiidA5zzP8072jYdXa-ij-N3mzMcmJ
-
-- title(~100M): https://drive.google.com/open?id=1to-Sg0VqrnfNir9-7zw3z8IjO6-QQVLr
-
-- Ground truth similar books(~200M): https://drive.google.com/open?id=1PNC8S9yEY9VwJIz_Jgp5obavopWFJRPG
-
-- book-to-similar-books.csv: https://drive.google.com/file/d/1NVeo2H3CQOGJtExgVXc1Cx_BGXiHROxy/view?usp=sharing
-
-## Reference 
-- Existing repo: https://github.com/MengtingWan/goodreads/blob/master/distributions.ipynb
+## For more information 
+- Our presentation: http://tianyijun.com/files/GoodReads_Recommendation.pdf
+- Our report: http://tianyijun.com/files/report_GoodReads.pdf
 
 
